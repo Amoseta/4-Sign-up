@@ -1,6 +1,8 @@
 /* todo: pagrindinis turinys turi buti centruotas horizontaliai */
 /* todo:pagrindinis turinys turi buti centruotas vertikaliai */
-
+body {
+    background-color: aquamarine;
+}
 .container {
     display: inline-block;
     width: 800px;
@@ -15,26 +17,29 @@
     float: left;
     background-color: yellow;
     padding: 20px;
+    color: #fff;
 }
 
 .main-title {
     display: inline-block;
     width: 100%;
-
+    
 }
 
 .bottom-links {
     display: inline-block;
     width: 100%;
+    
 }
 
 .bottom-links > .link {
     display: inline-block;
-
+    color: #fff;
 }
 
 .symbol {
     display: inline-block;
+
 }
 
 .right-column {
@@ -42,7 +47,7 @@
     width: 60%;
     float: left;
     padding: 60px;
-    background-color: blue; 
+    background-color: #fff;
 }
 
 .close {
@@ -59,28 +64,56 @@
     margin-bottom: 30px;
 }
 
-.form-row:last-of-type(5) {
+.form-row:last-of-type {
     margin-bottom: 0;
 }
 label {
     display: inline-block;
     width: 100%;
-
+    text-transform: uppercase;
+    color: #999999;
+    font-size: 14px;
 }
 input {
     display: inline-block;
     width: 100%;
+    font-size: 20px;
+    border: none;
+    line-height: 40px;
+    border-bottom: 2px solid#999999;
 }
 
 .btn {
     display: inline-block;
+    background-color: #005BD9;
+    color: #fff;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    line-height: 20px;
+    border-radius: 20px;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
 }
 
+.btn:hover {
+    font-size: 30px;
+}
 .text {
     display: inline-block;
+    padding: 10px;
+    line-height: 20px;
+    font-size: 20px;
+    margin-left: 10px;
 }
 
 .form-row > .link {
     display: inline-block;
-
+    padding: 10px;
+    line-height: 20px;
+    font-size: 20px;
+    color:  #005BD9;
+    text-decoration: none;
 }
