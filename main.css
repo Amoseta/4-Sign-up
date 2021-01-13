@@ -1,7 +1,7 @@
 /* todo: pagrindinis turinys turi buti centruotas horizontaliai */
 /* todo:pagrindinis turinys turi buti centruotas vertikaliai */
 
-main {
+.container {
     display: inline-block;
     width: 800px;
     background-color: red;
@@ -9,7 +9,7 @@ main {
     margin-top: 100px;
 }
 
-div:nth-of-type(1) {
+.left-column {
     display: inline-block;
     width: 40%;
     float: left;
@@ -17,30 +17,70 @@ div:nth-of-type(1) {
     padding: 20px;
 }
 
-h1{
+.main-title {
     display: inline-block;
     width: 100%;
 
 }
 
-footer {
+.bottom-links {
     display: inline-block;
     width: 100%;
 }
 
-a {
+.bottom-links > .link {
     display: inline-block;
 
 }
 
-span {
+.symbol {
     display: inline-block;
 }
 
-div:nth-of-type(2) {
+.right-column {
     display: inline-block;
     width: 60%;
     float: left;
     padding: 60px;
     background-color: blue; 
+}
+
+.close {
+    display: inline-block;
+}
+
+.form {
+    display: inline-block;
+}
+
+.form-row {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.form-row:last-of-type(5) {
+    margin-bottom: 0;
+}
+label {
+    display: inline-block;
+    width: 100%;
+
+}
+input {
+    display: inline-block;
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+}
+
+.text {
+    display: inline-block;
+}
+
+.form-row > .link {
+    display: inline-block;
+
 }
